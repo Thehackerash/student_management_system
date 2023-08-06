@@ -34,6 +34,7 @@ ll node2;
 ll node3;
 ll node4;
 ll node5;
+
 // operation store
 void store(char* line){
     node1->stud = line;
@@ -42,6 +43,10 @@ void store(char* line){
     head->next = &node1;
     head = head->next;
 
+
+}
+
+void update(){
 
 }
 
